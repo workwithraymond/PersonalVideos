@@ -18,7 +18,7 @@ html {
   --primary-200: #fde68a;
   --primary-300: #fcd34d;
   --primary-400: #fbbf24;
-  --primary-500: #f59e0b;
+  --primary-500: #0b49f5;
   --primary-600: #d97706;
   --primary-700: #b45309;
   --primary-800: #92400e;
@@ -130,6 +130,13 @@ ul {
   width: 100%;
   display: block;
   object-fit: cover;
+}
+
+.video {
+  
+    width: 70%;
+    display: block;
+    object-fit: cover;
 }
 /* buttons */
 
@@ -300,6 +307,7 @@ ul {
   background: var(--primary-500);
   color: var(--white);
   padding: 0.25rem 0.5rem;
+  text-align: center;
   letter-spacing: var(--letterSpacing);
   border-radius: var(--borderRadius);
 }

@@ -1,3 +1,5 @@
+import React from 'react'
+
 import VideoList from "./VideoList"
 
 const Video = ({items}) => {
