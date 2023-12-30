@@ -134,9 +134,12 @@ ul {
 
 .video {
   
-    width: 70%;
+    
     display: block;
     object-fit: cover;
+    height: '300';
+    width: '100%';
+    
 }
 /* buttons */
 

@@ -1,11 +1,18 @@
+import React from 'react'
+import YouTube from 'react-youtube'
 const VideoList = ({author, title, videoUrl, desc}) => {
+  const opts = {
+    height: '300',
+    width: '100%',
+    playerVars: {
+      autoplay: 0,
+    },
+};
+
   return (
     <article className="video-item">
-      <video controls width='100%' height='auto'>
-        <source src=""
-
-      </video>
-        <video src={videoUrl} alt={title} className="video"/>
+     
+        <YouTube videoUrl={videoUrl} opts={opts}/>
         <div className="item-info">
           <header>
             <h5>{title}</h5>
