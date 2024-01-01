@@ -12,7 +12,7 @@ const VideoList = ({author, title, videoUrl, desc}) => {
   return (
     <article className="video-item">
      
-        <YouTube videoUrl={videoUrl} opts={opts}/>
+        <YouTube videoId={videoUrl} opts={opts}/>
         <div className="item-info">
           <header>
             <h5>{title}</h5>
