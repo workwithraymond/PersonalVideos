@@ -1,6 +1,6 @@
 import React from 'react'
 import YouTube from 'react-youtube'
-const VideoList = ({author, title, videoUrl, desc}) => {
+const VideoList = ({id, author, title, videoUrl, desc}) => {
   const opts = {
     height: '300',
     width: '100%',
