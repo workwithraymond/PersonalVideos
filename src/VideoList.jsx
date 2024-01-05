@@ -13,7 +13,7 @@ const VideoList = ({id, author, title, videoUrl, desc}) => {
   return (
     <article className="video-item">
      
-        <YouTube videoId={videoUrl} opts={opts}/>
+        <YouTube videoId={getYouTubeVideoId(videoUrl)} opts={opts}/>
         <div className="item-info">
           <header>
             <h5>{title}</h5>
@@ -27,4 +27,11 @@ const VideoList = ({id, author, title, videoUrl, desc}) => {
     </article>
   )
 }
+
+const getYouTubeVideoId = (url) => {
+  const videoIdRegex = /[?&]v=([^?&]+)/;
+  const match = url.match(videoIdRegex);
+  return match ? match[1] : '';
+};
+
 export default VideoList
