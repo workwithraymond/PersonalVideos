@@ -12,7 +12,7 @@ const videos = [
       title: 'Being Alone Will Make You Full Time SAVAGE ',
       author: 'Inspiring Squad',
       category: 'personal development',
-      videoUrl: 'https://www.youtube.com/watch?v=wDC-tFGYT4Y',
+      videoUrl: 'https://www.youtube.com/watch?v=jlA2dWVLFzg',
       desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
     },
     {
@@ -44,7 +44,7 @@ const videos = [
       title: 'Ryder Spot - Splash',
       author: 'Ryder Spot',
       category: 'music',
-      videoUrl: 'https://www.youtube.com/watch?v=dp0b66B_ANM',
+      videoUrl: 'https://www.youtube.com/watch?v=FDUaA5IbUlw',
       desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
     },
     {
